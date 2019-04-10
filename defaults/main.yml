@@ -1,2 +1,7 @@
 ---
 # defaults file for ansible-role-motd
+
+motd_message: "{{ ansible_managed }}"
+motd_owner: root
+motd_group: root
+motd_mode: u=rwX,go=
